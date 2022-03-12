@@ -5,7 +5,6 @@ const ThemeContext = createContext(false);
 const ThemeProvider = ({ children }) => {
   const [toggle, setToggle] = useState(false);
   const toggleFunction = () => {
-    console.log("it's working");
     setToggle((prevValue) => !prevValue);
   };
   return (
