@@ -7,10 +7,10 @@ const i18nReducer = (state, action) => {
   // In case of adding new languages
   switch (action.type) {
     case 'es': {
-      return { language: action.language };
+      return { language: action.type };
     }
     case 'en': {
-      return { language: action.language };
+      return { language: action.type };
     }
     default: {
       return state;
