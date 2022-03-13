@@ -2,7 +2,7 @@ import './App.css';
 import { useTheme } from './hooks/useTheme';
 import { useLanguage } from './hooks/useLanguage';
 import { information } from './i18n';
-import { Header } from './components';
+import { Footer, Header } from './components';
 
 function App() {
   const { theme } = useTheme();
@@ -11,10 +11,11 @@ function App() {
   return (
     <div className={`App ${theme}`}>
       <Header />
-      <header className={`App-header ${theme} `}>
+      <main className={`App-header ${theme} `}>
         <p>{information[state.language].test.hello}</p>
         <p>{information[state.language].test.goodbye}</p>
-      </header>
+      </main>
+      <Footer />
     </div>
   );
 }
