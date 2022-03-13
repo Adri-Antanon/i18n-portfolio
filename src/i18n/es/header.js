@@ -1,6 +1,6 @@
 const header = {
   homepage: '/',
-  title: 'Adri Antañon',
+  title: 'Adri Antañón',
 };
 
 export default header;
