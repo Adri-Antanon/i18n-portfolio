@@ -1,10 +1,15 @@
-// import Navbar from '../Navbar/Navbar';
-import styles from './styles.module.css';
+import { Navbar } from './navbar';
+import { useLanguage } from '../../hooks/useLanguage';
 
-export const Header = ({ information }) => {
-  const { title, homepage } = information;
+import styles from './styles.module.css';
+import { information } from '../../i18n';
+
+export const Header = () => {
+  const { state } = useLanguage();
+
+  const { title, homepage } = information[state.language].header;
   return (
-    <header className={`${styles.header} center`}>
+    <header className={`${styles.header} centered`}>
       <h3>
         {homepage ? (
           <a href={homepage} className="link">
@@ -14,7 +19,7 @@ export const Header = ({ information }) => {
           title
         )}
       </h3>
-      {/* <Navbar /> */}
+      <Navbar />
     </header>
   );
 };

@@ -5,23 +5,15 @@ import { information } from './i18n';
 import { Header } from './components';
 
 function App() {
-  const { toggle, toggleFunction } = useTheme();
-  const { state, dispatch } = useLanguage();
+  const { theme } = useTheme();
+  const { state } = useLanguage();
 
   return (
-    <div className={`App ${toggle ? 'dark' : 'light'}`}>
-      <Header information={information[state.language].header} />
-      <header className={`App-header ${toggle ? 'dark' : 'light'} `}>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        {toggle ? <p>True</p> : <p>false</p>}
-        <button onClick={() => toggleFunction()}>Change theme</button>
+    <div className={`App ${theme}`}>
+      <Header />
+      <header className={`App-header ${theme} `}>
         <p>{information[state.language].test.hello}</p>
         <p>{information[state.language].test.goodbye}</p>
-        <button onClick={() => dispatch({ type: 'en' })}>English</button>
-        <button onClick={() => dispatch({ type: 'es' })}>Spanish</button>
       </header>
     </div>
   );

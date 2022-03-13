@@ -1,5 +1,6 @@
 const header = {
-  title: 'Ay mi madre el bicho!',
+  homepage: '/',
+  title: 'Adri Antañon',
 };
 
 export default header;
