@@ -2,6 +2,7 @@ import { information } from '../../i18n';
 import { useLanguage } from '../../hooks/useLanguage';
 
 import styles from './styles.module.css';
+import { ProjectItem } from './projectItem';
 
 export const Projects = () => {
   const { state } = useLanguage();
@@ -11,15 +12,12 @@ export const Projects = () => {
   if (!projects.length) return null;
 
   return (
-    <section id="projects" className="section projects">
+    <section id="projects" className="section">
       <h2 className="section__title">{title}</h2>
 
       <div className={styles.projects__container}>
         {projects.map((project) => (
-          <div key={project.id}>
-            <p>{project.title}</p>
-            <p>{project.description}</p>
-          </div>
+          <ProjectItem project={project} key={project.id} />
         ))}
       </div>
     </section>

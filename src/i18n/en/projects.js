@@ -1,8 +1,7 @@
 import shopReactNative from '../../assets/img/projects/shopReactNative.jpg';
-import cinemaITB from '../../assets/img/projects/cinemaITB.PNG';
-import rickAndMorty from '../../assets/img/projects/rickAndMorty.PNG';
-import guessANumber from '../../assets/img/projects/guessANumber.PNG';
-import showMeals from '../../assets/img/projects/showMeals.PNG';
+import cinemaITB from '../../assets/img/projects/cinemaITB.png';
+import guessANumber from '../../assets/img/projects/guessANumber.png';
+import showMeals from '../../assets/img/projects/showMeals.png';
 import blogNextJS from '../../assets/img/projects/blogNextJS.webp';
 
 const projectsInfo = [

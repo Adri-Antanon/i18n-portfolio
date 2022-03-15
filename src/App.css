@@ -17,21 +17,6 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .dark {
   background-color: lightslategray;
 }
@@ -92,12 +77,16 @@ main {
   color: var(--clr-fg);
 }
 
+.link--icon {
+  font-size: 2.5rem;
+}
+
 .btn {
   display: block;
   cursor: pointer;
   padding: 0.8rem 1.4rem;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
 }
