@@ -1,0 +1,47 @@
+.about {
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.about h1 {
+  font-size: clamp(4rem, 5vw, 8rem);
+}
+
+.about h2 {
+  font-size: clamp(2.5rem, 3vw, 6rem);
+}
+.about p {
+  font-size: clamp(1.5rem, 1.2vw, 4rem);
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2rem;
+}
+
+.about__desc {
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4rem;
+}
+
+.about a {
+  margin-right: 1.5rem;
+}
+
+.about .btn--outline {
+  margin-right: 1rem;
+}
+
+@media (max-width: 600px) {
+  .about {
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+}
