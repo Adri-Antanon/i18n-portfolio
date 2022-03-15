@@ -14,7 +14,7 @@ export const About = () => {
     <div className={`centered ${styles.about}`}>
       {name && (
         <h1>
-          Hi, I am <span className={styles.about__name}>{name}.</span>
+          Hi, I'm <span className={styles.about__name}>{name}.</span>
         </h1>
       )}
 

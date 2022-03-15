@@ -1,7 +1,7 @@
-import './App.css';
+import { About, Footer, Header, Projects, Skills } from './components';
 import { useTheme } from './hooks/useTheme';
 
-import { About, Footer, Header, Projects } from './components';
+import './App.css';
 
 function App() {
   const { theme } = useTheme();
@@ -12,6 +12,7 @@ function App() {
       <main>
         <About />
         <Projects />
+        <Skills />
       </main>
       <Footer />
     </div>

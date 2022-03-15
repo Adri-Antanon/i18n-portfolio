@@ -1,0 +1,21 @@
+.skills__container {
+  max-width: 500px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.skills__item img {
+  height: 10rem;
+}
+.skills__item p {
+  text-align: center;
+  margin-top: 1rem;
+}
