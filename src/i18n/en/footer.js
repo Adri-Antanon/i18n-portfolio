@@ -1,5 +1,5 @@
 const footer = {
-  author: 'Created by Adrián Antañón with',
+  author: 'Made by Adrián Antañón with',
 };
 
 export default footer;

@@ -5,21 +5,22 @@ import { information } from '../../i18n';
 
 import styles from './styles.module.css';
 
-export const About = () => {
+export const Intro = () => {
   const { state } = useLanguage();
   const { about } = information[state.language];
-  const { name, role, description, resume, resumeUrl, social } = about;
+  const { intro, name, role, description, resume, resumeUrl, social } = about;
 
   return (
     <div className={`centered ${styles.about}`}>
       {name && (
         <h1>
-          Hi, I'm <span className={styles.about__name}>{name}.</span>
+          {intro} <span className={styles.about__name}>{name}</span>{' '}
+          <span role={'img'}>👋</span>
         </h1>
       )}
 
-      {role && <h2 className={styles.about__role}>A {role}.</h2>}
-      <p className={styles.about__desc}>{description && description}</p>
+      {role && <h2 className={styles.about__role}>{role}</h2>}
+      {/* <p className={styles.about__desc}>{description && description}</p>
 
       <div className={`centered ${styles.about__contact}`}>
         {resume && (
@@ -61,7 +62,7 @@ export const About = () => {
             )}
           </>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

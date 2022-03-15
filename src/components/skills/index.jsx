@@ -4,16 +4,16 @@ import styles from './styles.module.css';
 
 export const Skills = () => {
   return (
-    <section id="projects" className="section">
+    <section id="skills" className="section">
       <h2 className="section__title">Skills</h2>
-      <div className={styles.skills__container}>
+      <ul className={styles.skills__container}>
         {skillList.map((skill) => (
-          <div className={styles.skills__item}>
+          <li key={skill.name} className={styles.skills__item}>
             <img src={skill.src} alt={skill.name} />
             <p>{skill.name}</p>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 };

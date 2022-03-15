@@ -1,4 +1,4 @@
-import { About, Footer, Header, Projects, Skills } from './components';
+import { Intro, Footer, Header, Projects, Skills } from './components';
 import { useTheme } from './hooks/useTheme';
 
 import './App.css';
@@ -10,7 +10,7 @@ function App() {
     <div className={`App ${theme}`}>
       <Header />
       <main>
-        <About />
+        <Intro />
         <Projects />
         <Skills />
       </main>
