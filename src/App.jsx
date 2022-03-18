@@ -1,4 +1,4 @@
-import { Intro, Footer, Header, Projects, Skills } from './components';
+import { Intro, Footer, Header, Projects, Skills, AboutMe } from './components';
 import { useTheme } from './hooks/useTheme';
 
 import './App.css';
@@ -13,6 +13,9 @@ function App() {
         <Intro />
         <Projects />
         <Skills />
+        <AboutMe />
+        {/* AboutMe */}
+        {/* Contact */}
       </main>
       <Footer />
     </div>

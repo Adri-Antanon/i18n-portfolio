@@ -1,5 +1,6 @@
 const about = {
   intro: 'Hola, soy',
+  title: 'Sobre Mi',
   name: 'Adri',
   role: 'Desarrollador Front End Junior',
   description:

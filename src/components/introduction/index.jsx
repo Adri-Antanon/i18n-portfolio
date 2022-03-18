@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 export const Intro = () => {
   const { state } = useLanguage();
   const { about } = information[state.language];
-  const { intro, name, role, description, resume, resumeUrl, social } = about;
+  const { intro, name, role } = about;
 
   return (
     <div className={`centered ${styles.about}`}>
@@ -20,49 +20,6 @@ export const Intro = () => {
       )}
 
       {role && <h2 className={styles.about__role}>{role}</h2>}
-      {/* <p className={styles.about__desc}>{description && description}</p>
-
-      <div className={`centered ${styles.about__contact}`}>
-        {resume && (
-          <a
-            href={resumeUrl}
-            type="button"
-            rel="noopener noreferrer"
-            target="_blank"
-            download
-          >
-            <span type="button" className="btn btn--outline">
-              {resume}
-            </span>
-          </a>
-        )}
-
-        {social && (
-          <>
-            {social.github && (
-              <a
-                href={social.github}
-                rel="noopener noreferrer"
-                target="_blank"
-                className="link link--icon"
-              >
-                <BsGithub />
-              </a>
-            )}
-
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                rel="noopener noreferrer"
-                target="_blank"
-                className="link link--icon"
-              >
-                <BsLinkedin />
-              </a>
-            )}
-          </>
-        )}
-      </div> */}
     </div>
   );
 };
