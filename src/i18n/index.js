@@ -1,20 +1,8 @@
-import english from './en/test';
-import headerEn from './en/header';
-import navbarEn from './en/navbar';
-import footerEn from './en/footer';
-import projectsEn from './en/projects';
-import aboutEn from './en/about';
-
-import spanish from './es/test';
-import headerEs from './es/header';
-import navbarEs from './es/navbar';
-import footerEs from './es/footer';
-import projectsEs from './es/projects';
-import aboutEs from './es/about';
+import { headerEn, navbarEn, footerEn, projectsEn, aboutEn } from './en';
+import { headerEs, navbarEs, footerEs, projectsEs, aboutEs } from './es';
 
 const information = {
   es: {
-    test: { ...spanish },
     header: { ...headerEs },
     navbar: { ...navbarEs },
     footer: { ...footerEs },
@@ -22,7 +10,6 @@ const information = {
     about: { ...aboutEs },
   },
   en: {
-    test: { ...english },
     header: { ...headerEn },
     navbar: { ...navbarEn },
     footer: { ...footerEn },

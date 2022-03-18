@@ -36,11 +36,11 @@ const skills = [
   'Git',
   'Jest',
 ];
+const about = 'About me';
 
-const navbar = {
+export const navbarEn = {
   projects,
   projectsTitle: 'Projects',
   skills,
+  about,
 };
-
-export default navbar;

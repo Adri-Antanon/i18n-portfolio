@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 export const Footer = () => {
   const { state } = useLanguage();
-  const { footer } = information[state.language];
+  const { author } = information[state.language].footer;
 
   return (
     <footer className={styles.footer}>
@@ -13,7 +13,7 @@ export const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {footer.author} <span>♥</span>
+        {author} <span>♥</span>
       </a>
     </footer>
   );

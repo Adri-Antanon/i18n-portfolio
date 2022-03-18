@@ -7,11 +7,11 @@ import styles from './styles.module.css';
 
 export const AboutMe = () => {
   const { state } = useLanguage();
-  const { about } = information[state.language];
-  const { description, resume, resumeUrl, social, title } = about;
+  const { description, resume, resumeUrl, social, title } =
+    information[state.language].about;
 
   return (
-    <section id="projects" className="section">
+    <section id="about" className="section">
       <h2 className="section__title">{title}</h2>
 
       <div className={`centered ${styles.about}`}>

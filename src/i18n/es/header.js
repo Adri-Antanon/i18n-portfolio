@@ -1,6 +1,4 @@
-const header = {
+export const headerEs = {
   homepage: '/',
   title: 'Adri Antañón',
 };
-
-export default header;

@@ -7,7 +7,7 @@ const projectsInfo = [
     image: 'img/projects/blogNextJS.webp',
     title: 'Blog',
     description:
-      'Blog about web development with css modules, api routes, server side rendering, react-markdown and more. ',
+      'Blog about web development with css module, api routes, server side rendering, react-markdown and more. ',
   },
   {
     id: 2,
@@ -51,9 +51,7 @@ const projectsInfo = [
   },
 ];
 
-const projects = {
+export const projectsEn = {
   projectsInfo,
   title: 'Projects',
 };
-
-export default projects;

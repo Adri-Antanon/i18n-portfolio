@@ -8,9 +8,13 @@
 
 .header a {
   text-decoration: none;
+  text-align: center;
 }
 @media (max-width: 600px) {
   .header {
     height: 10rem;
+  }
+  .header h3 {
+    text-align: center;
   }
 }

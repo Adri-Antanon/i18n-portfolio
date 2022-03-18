@@ -51,9 +51,7 @@ const projectsInfo = [
   },
 ];
 
-const projects = {
+export const projectsEs = {
   projectsInfo,
   title: 'Proyectos',
 };
-
-export default projects;

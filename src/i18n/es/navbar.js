@@ -37,10 +37,11 @@ const skills = [
   'Jest',
 ];
 
-const navbar = {
+const about = 'Sobre mi';
+
+export const navbarEs = {
   projects,
   projectsTitle: 'Proyectos',
   skills,
+  about,
 };
-
-export default navbar;

@@ -1,5 +1,3 @@
-const footer = {
+export const footerEn = {
   author: 'Made by Adrián Antañón with',
 };
-
-export default footer;

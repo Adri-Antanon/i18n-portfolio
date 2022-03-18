@@ -1,10 +1,10 @@
-const about = {
+export const aboutEs = {
   intro: 'Hola, soy',
   title: 'Sobre Mi',
   name: 'Adri',
   role: 'Desarrollador Front End Junior',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Desarrollador autodidacta, de rápido aprendizaje y altamente motivado, apasionado por el desarrollo web, la tecnología e Internet. Soy una persona proactiva, trabajadora y disfruto trabajando en equipo y el intercambio de ideas y conocimientos que proporciona.',
   resume: 'Currículum',
   resumeUrl: 'CV-Adrian-Antanon.pdf',
   social: {
@@ -12,5 +12,3 @@ const about = {
     github: 'https://github.com/Adri-Antanon',
   },
 };
-
-export default about;

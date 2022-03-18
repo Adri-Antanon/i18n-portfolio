@@ -32,11 +32,7 @@ export const skillList = [
     src: 'img/skills/css3.svg.png',
   },
   {
-    name: 'SQL',
-    src: 'img/skills/sql.png',
-  },
-  {
-    name: 'NoSQL',
+    name: 'MongoDB',
     src: 'img/skills/nosql.png',
   },
   {

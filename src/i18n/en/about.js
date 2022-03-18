@@ -1,4 +1,4 @@
-const about = {
+export const aboutEn = {
   intro: `Hi, I'm`,
   title: 'About Me',
   name: 'Adri',
@@ -12,5 +12,3 @@ const about = {
     github: 'https://github.com',
   },
 };
-
-export default about;

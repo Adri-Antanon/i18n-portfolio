@@ -1,5 +1,3 @@
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
-
 import { useLanguage } from '../../hooks/useLanguage';
 import { information } from '../../i18n';
 
@@ -7,8 +5,7 @@ import styles from './styles.module.css';
 
 export const Intro = () => {
   const { state } = useLanguage();
-  const { about } = information[state.language];
-  const { intro, name, role } = about;
+  const { intro, name, role } = information[state.language].about;
 
   return (
     <div className={`centered ${styles.about}`}>
