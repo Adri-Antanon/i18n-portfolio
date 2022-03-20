@@ -23,13 +23,23 @@ export const ProjectItem = ({ project }) => {
       )}
       <p className={styles.project__description}>{description}</p>
       {source && (
-        <a href={source} className="link link--icon">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={source}
+          className="link link--icon"
+        >
           <BsGithub />
         </a>
       )}
 
       {demo && (
-        <a href={demo} className="link link--icon">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={demo}
+          className="link link--icon"
+        >
           <MdOutlineLaunch />
         </a>
       )}

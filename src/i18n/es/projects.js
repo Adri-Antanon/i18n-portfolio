@@ -7,7 +7,7 @@ const projectsInfo = [
     image: 'img/projects/blogNextJS.webp',
     title: 'Blog',
     description:
-      'Blog about web development with css modules, api routes, server side rendering, react-markdown and more. ',
+      'Blog sobre desarrollo web con css module, rutas api, SSR, react-markdown y más. ',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projectsInfo = [
     image: 'img/projects/shopReactNative.jpg',
     title: 'Simple Online Store',
     description:
-      'Shop created using React Native, Expo, authentication implementation, different hooks, Redux Thunk and validation inputs',
+      'Tienda creada usando React Native, Expo, autenticación, diferentes hooks, Redux Thunk y validación de inputs',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projectsInfo = [
     image: 'img/projects/guessANumber.png',
     title: 'Guess a number - game',
     description:
-      'You enter a number between 1 and 99 and the game begins, the CPU must guess the number',
+      'Introduces un número entre 1 y 99 y comienza el juego, la CPU debe adivinar el número',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projectsInfo = [
     image: 'img/projects/showMeals.png',
     title: 'Show your meals!',
     description:
-      'Different food recipes are shown, how to prepare them, separated by categories and you can save them in favorites.',
+      'Se muestran diferentes recetas de comida, cómo prepararlas, separadas por categorías y puedes guardarlas en favoritos.',
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const projectsInfo = [
     image: 'img/projects/cinemaITB.png',
     title: 'Cinema ITB',
     description:
-      'Vanilla javascript website, a blog about cinema that I did shortly after learning programming.',
+      'Web creada con HTML, CSS y vanilla JS, un blog sobre cine que hice poco después de aprender a programar.',
   },
 ];
 

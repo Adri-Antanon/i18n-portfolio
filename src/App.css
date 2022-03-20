@@ -17,14 +17,6 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-/* .dark {
-  background-color: lightslategray;
-} */
-
-/* .light {
-  background-color: lightcoral;
-} */
-
 .App {
   color: var(--clr-fg);
   background-color: var(--clr-bg);
