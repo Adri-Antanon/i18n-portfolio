@@ -1,14 +1,14 @@
 export const aboutEs = {
   intro: 'Hola, soy',
   title: 'Sobre Mi',
-  name: 'Adri',
-  role: 'Desarrollador Front End Junior',
+  name: 'Max',
+  role: 'Desarrollador Front End',
   description:
-    'Desarrollador autodidacta, de rápido aprendizaje y altamente motivado, apasionado por el desarrollo web, la tecnología e Internet. Soy una persona proactiva, trabajadora y disfruto trabajando en equipo y el intercambio de ideas y conocimientos que proporciona.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt atque eligendi maiores ullam, quae neque corrupti inventore? Facere in, iure error eos corporis natus temporibus nulla ipsa expedita sunt. Maiores?',
   resume: 'Currículum',
-  resumeUrl: 'CV-Adrian-Antanon.pdf',
+  resumeUrl: 'max-example-resume.pdf',
   social: {
-    linkedin: 'https://www.linkedin.com/in/adrianantanyon/',
-    github: 'https://github.com/Adri-Antanon',
+    linkedin: 'https://www.linkedin.com/',
+    github: 'https://github.com/',
   },
 };

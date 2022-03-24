@@ -61,7 +61,7 @@ export const AboutMe = () => {
           </div>
         </article>
         <div className={styles.about__image}>
-          <img src="avatar.jpg" alt="author of website" />
+          <img src="avatar.png" alt="author of website" />
         </div>
       </div>
     </section>

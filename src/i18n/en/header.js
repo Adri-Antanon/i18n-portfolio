@@ -1,4 +1,4 @@
 export const headerEn = {
   homepage: '/',
-  title: 'Adri Antañón',
+  title: 'Max Dev',
 };

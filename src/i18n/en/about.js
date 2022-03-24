@@ -1,12 +1,12 @@
 export const aboutEn = {
   intro: `Hi, I'm`,
   title: 'About Me',
-  name: 'Adri',
-  role: 'Junior Front End Developer',
+  name: 'Max',
+  role: 'Front End Developer',
   description:
-    'A highly motivated, fast learner and self-taught developer, passionated about web development, technology and internet. I am proactive, hard worker person and I enjoy working on a team and the exchange of ideas and knowledge it provides.',
+    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nesciunt sapiente facere consequuntur sed aperiam nostrum ad soluta maxime et eum nam ipsam libero, atque repellendus iste! Perspiciatis, porro ad.',
   resume: 'Resume',
-  resumeUrl: 'Resume-Adrian-Antanyon.pdf',
+  resumeUrl: 'max-example-resume.pdf',
   social: {
     linkedin: 'https://linkedin.com',
     github: 'https://github.com',
