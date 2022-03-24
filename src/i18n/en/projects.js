@@ -1,7 +1,7 @@
 const projectsInfo = [
   {
     id: 1,
-    demo: 'https://adri-blog.vercel.app/',
+    demo: 'https://adri-antanon.github.io/i18n-portfolio/',
     source: 'https://github.com/',
     stack: ['React'],
     image: 'img/projects/project-placeholder.jpg',
@@ -11,7 +11,7 @@ const projectsInfo = [
   },
   {
     id: 2,
-    demo: 'https://expo.io/@adriantanon/online-store',
+    demo: 'https://adri-antanon.github.io/i18n-portfolio/',
     source: 'https://github.com/',
     stack: ['HTML', 'CSS', 'JavaScript'],
     image: 'img/projects/project-placeholder.jpg',
@@ -21,7 +21,7 @@ const projectsInfo = [
   },
   {
     id: 3,
-    demo: 'https://expo.io/@adriantanon/projects/guess-number',
+    demo: 'https://adri-antanon.github.io/i18n-portfolio/',
     source: 'https://github.com/',
     stack: ['HTML', 'CSS'],
     image: 'img/projects/project-placeholder.jpg',
