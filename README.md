@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Multi-language Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A portfolio template built using React where you can add any language you want.
 
-## Available Scripts
+## Preview
 
-In the project directory, you can run:
+[See Live](https://adri-antanon.github.io/i18n-portfolio/)
 
-### `npm start`
+## Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```shell
+git clone https://github.com/Adri-Antanon/i18n-portfolio.git
+cd i18n-portfolio
+```
 
-### `npm test`
+Or just use the "Use this template" button on GitHub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```shell
+npm install
+npm start
+```
 
-### `npm run build`
+To modify the language options go to src/context/i18nContext.js and add the language what you want:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```js
+  const i18nReducer = (state, action) => {
+  // In case of adding new languages
+  switch (action.type) {
+    case 'es': {
+      return { language: action.type };
+    }
+    case 'en': {
+      return { language: action.type };
+    }
+    case 'EXAMPLE': {
+      return { language: action.type };
+    }
+    default: {
+      return state;
+    }
+  }
+};
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can add your personal data inside src/i18n.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to use
+- Open `public/index.html` and replace -
 
-### `npm run eject`
+`<title>Max Dev - Example Portfolio</title>` with `<title>Your Portfolio name</title>`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Change the information for yours inside the i18n folder
 
 ### Deployment
+I highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React,  you should host your website online for free.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Technologies 
+ A simple combination of React + CSS.
 
-### `npm run build` fails to minify
+### Thanks
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this portfolio template don't forget give it a ⭐.
