@@ -1,6 +1,6 @@
 # Multi-language Portfolio
 
-A portfolio template built using React where you can add any language you want.
+A portfolio template built using React where you can add any language you want and have dark and light theme.
 
 ## Preview
 
