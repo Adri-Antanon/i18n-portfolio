@@ -13,14 +13,11 @@ A portfolio template built using React where you can add any language you want a
 ```shell
 git clone https://github.com/Adri-Antanon/i18n-portfolio.git
 cd i18n-portfolio
-```
-
-Or just use the "Use this template" button on GitHub.
-
-```shell
 npm install
 npm start
 ```
+
+Or just use the "Use this template" button on GitHub.
 
 To modify the language options go to src/context/i18nContext.js and add the language what you want:
 
